@@ -1,0 +1,53 @@
+.settling_report_tables {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+  overflow: auto;
+}
+
+.main_table_div {
+  width: 100%;
+  padding: 10px;
+  background: white;
+}
+
+.option_btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.table-bordered {
+  border-color: white;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: white !important;
+  border-style: solid;
+  border-width: 0;
+  padding: 15px 10px !important;
+}
+
+.table-responsive {
+  height: 450px;
+}
+
+.table-responsive::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .settling_report_tables {
+    align-items: start;
+    overflow: auto;
+    flex-direction: column;
+  }
+}

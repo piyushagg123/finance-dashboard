@@ -1,0 +1,340 @@
+.dash_container {
+  max-width: 100%;
+  width: 100%;
+  height: max-content;
+  background: #f8f8f8;
+}
+
+.mini_nav_box {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: end;
+  padding: 10px 15px;
+  /* align-items: center; */
+  align-items: end;
+  background-color: #fff;
+}
+
+.year_picker {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.but_now_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.but_now_btn p {
+  background: #cbdbff;
+  padding: 2px 10px;
+  border-radius: 8px;
+  color: #3c3cf9;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.company_picker select {
+  max-width: 190px;
+  width: 190px;
+  outline: none;
+  font-weight: 700;
+}
+
+.help,
+.keyboard,
+.subscribe,
+.search_icon {
+  font-size: 25px;
+  color: #fff;
+}
+
+.other_right_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.other_right_links .profile {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro_text {
+  text-align: end;
+  color: #fff
+}
+
+.pro_icon {
+  background: #d2f2ff;
+  padding: 15px;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #025cff;
+  font-size: 25px;
+}
+
+.hr {
+  margin: 0 !important;
+}
+
+/* .dash_section {
+  max-width: 1350px;
+} */
+.dash_section {
+  padding: 0 10px;
+}
+
+.dashboard_main_data {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.growth_cards {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  border-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+}
+
+.setup_details {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  border-top: 0;
+  margin: 10px;
+  margin-top: 0px;
+  background-color: #fff;
+}
+
+.growth_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.growth_head h4 {
+  width: -webkit-fill-available;
+}
+
+.growth_card {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #e0f9fd;
+}
+
+.growth_details {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.growth_icon {
+  padding: 8px;
+  font-size: 35px;
+  background: #03cfe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.growth_price {
+  color: black;
+  font-weight: bold;
+}
+
+.growth_text p {
+  color: black;
+}
+
+.revenue_cards,
+.inflow_cards {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.revenu_data {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.revenu_card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.revenu_text {
+  display: flex;
+}
+
+.revenu_text:nth-child(2) {
+  color: black;
+  font-weight: 500;
+  padding-right: 13px;
+}
+
+.revenu_details,
+.revenu_text {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.revenu_icon {
+  padding: 8px;
+  font-size: 35px;
+  background: #03cfe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.revenu_percent {
+  font-size: 20px;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  color: rgb(41, 199, 112);
+}
+
+.inflow_card {
+  display: flex;
+  gap: 15px;
+}
+
+.inflow_text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.inflow_text p {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.inflow_icon {
+  padding: 8px;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+}
+
+.guide_list {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin: 15px 0;
+  background: #909beb;
+}
+
+.guide_list hr {
+  margin: 0.5rem 0;
+}
+
+.guide_list .form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.guide_list .form-group p {
+  color: black;
+  font-weight: 600;
+}
+
+.support_card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  font-size: 18px;
+  height: 60px;
+}
+
+.support_card p {
+  font-size: 15px;
+}
+
+@media (max-width: 1420px) {
+  .revenu_text:nth-child(2) {
+    font-weight: normal;
+    padding-right: 0px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1310px) {
+  .revenu_text:nth-child(2) {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .mini_nav_box {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .setup_details {
+    border-top-right-radius: 0.5rem !important;
+    border-top-left-radius: 0.5rem !important;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    border-top: auto !important;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .growth_head {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .revenu_data {
+    flex-direction: column;
+  }
+}

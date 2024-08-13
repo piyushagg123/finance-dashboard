@@ -1,0 +1,59 @@
+.navbar_container {
+  background-color: #a6c8f5;
+}
+
+.navbar_logo {
+  width: 150px;
+  height: auto;
+}
+
+.navbar_container nav {
+  max-width: 1157px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right_menu_details {
+  display: flex;
+  gap: 10px;
+}
+
+.right_menu_details button {
+  background-color: #1877f2;
+  color: white;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.right_menu_details button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_menu_details button span svg path {
+  fill: #fff;
+}
+
+.right_menu_details .login_btn {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .right_menu_details {
+    display: none;
+  }
+}

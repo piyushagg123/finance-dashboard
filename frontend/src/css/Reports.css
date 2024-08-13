@@ -1,0 +1,24 @@
+.reports_container {
+  max-width: 100%;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0px 15px;
+}
+
+.input_selector {
+  outline: none;
+}
+
+.report_pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.report_pagination button {
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+}
